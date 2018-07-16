@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -805,6 +805,10 @@ namespace FPS
                     Debug.WriteLine("Don't read data from Auto_EOD_Config table");
 
                 }
+
+                SetDataTime.hours = HOURS;
+                SetDataTime.minutes = MINUTES;
+                SetDataTime.interval = INTERVAL;
             }
             catch (Exception ex) {
 
